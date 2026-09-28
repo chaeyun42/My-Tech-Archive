@@ -15,9 +15,8 @@ SAP ERP 개발 및 백엔드/데이터 분석(Python, MariaDB, Java) 학습 기�
 ## 📂 폴더 구조 및 주요 코드
 
 ### 1. 📦 `SAP-ABAP`
-- [`01_Selection_Screen.abap`](./01_SAP-ABAP/01_Selection_Screen.abap): PARAMETERS, RADIOBUTTON GROUP 및 SELECTION-SCREEN FRAME 박스 레이아웃 구성
-- [`02_Toolbar_FunctionKey.abap`](./01_SAP-ABAP/02_Toolbar_FunctionKey.abap): SSCRFIELDS 및 FUNCTION KEY를 활용한 검색 화면 내 사용자 정의 버튼(Excel 다운로드, 샘플 다운로드) 배치
-- [`03_Frontend_Services_Class.abap`](./01_SAP-ABAP/03_Frontend_Services_Class.abap): `CL_GUI_FRONTEND_SERVICES` 클래스 및 메소드(`DIRECTORY_BROWSE`, `GET_TEMP_DIRECTORY`)를 활용한 파일 경로 조회 및 객체 생성 실습
+- ['SAP-ABAP-Excel-Data-Manager'](./01_SAP-ABAP/01_Excel-Data-Manager.abap): PARAMETERS, RADIOBUTTON GROUP 및 SELECTION-SCREEN FRAME 박스 레이아웃 구성
+
 
 #### 2. 🐍 Python-Data
 
