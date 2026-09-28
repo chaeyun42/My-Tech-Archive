@@ -20,7 +20,7 @@ SAP ERP 개발 및 백엔드/데이터 분석(Python, MariaDB, Java) 학습 기�
 ### 2. 🐍 `Python-Data/`
 
 
-### 3. 🐬 [`MariaDB-SQL/`]
+### 3. 🐬 `MariaDB-SQL/`
 - [`01_ERP_Purchase_Join_Query.sql`](./03_MariaDB-SQL/01_ERP_Purchase_Join_Query.sql): 자재 마스터 및 구매 오더 CBO 테이블 설계, Multi-Table INNER JOIN 및 데이터 집계 쿼리
 - [`02_ERP_Sales_Subquery.sql`](./03_MariaDB-SQL/02_ERP_Sales_Subquery.sql): LEFT JOIN을 통한 미입고 오더 추출 및 서브쿼리(Subquery) + HAVING 기반 조건부 데이터 산출
 - [`03_SQL_View_Procedure.sql`](./03_MariaDB-SQL/03_SQL_View_Procedure.sql): 다중 조인 및 업무 로직이 포함된 복잡한 SQL 구문의 VIEW 객체화 및 재사용
