@@ -15,7 +15,7 @@ SAP ERP 개발 및 백엔드/데이터 분석(Python, MariaDB, Java) 학습 기�
 ## 📂 폴더 구조 및 주요 코드
 
 ### 1. 📦 `SAP-ABAP`
-- [`01_Excel-Data-Manager.abap`](./01_SAP-ABAP/01_Excel-Data-Manager.abap): OLE 및 CL_GUI를 활용한 엑셀 템플릿 다운로드 및 데이터 정합성 검증/저장 통합 프로그램
+- [`Excel-Data-Manager`](./01_SAP-ABAP/Excel-Data-Manager): OLE 및 CL_GUI를 활용한 엑셀 템플릿 다운로드 및 데이터 정합성 검증/저장 통합 프로그램
 
 
 ### 2. 🐍 `Python-Data`
