@@ -15,15 +15,15 @@ SAP ERP 개발 및 백엔드/데이터 분석(Python, MariaDB, Java) 학습 기�
 ## 📂 폴더 구조 및 주요 코드
 
 ### 1. 📦 `SAP-ABAP`
-- `01_Selection_Screen.abap`: PARAMETERS, RADIOBUTTON GROUP 및 SELECTION-SCREEN FRAME 박스 레이아웃 구성
-- `02_Toolbar_FunctionKey.abap`: SSCRFIELDS 및 FUNCTION KEY를 활용한 검색 화면 내 사용자 정의 버튼(Excel 다운로드, 샘플 다운로드) 배치
-- `03_Frontend_Services_Class.abap`: `CL_GUI_FRONTEND_SERVICES` 클래스 및 메소드(`DIRECTORY_BROWSE`, `GET_TEMP_DIRECTORY`)를 활용한 파일 경로 조회 및 객체 생성 실습
+- [`01_Selection_Screen.abap`](./01_SAP-ABAP/01_Selection_Screen.abap): PARAMETERS, RADIOBUTTON GROUP 및 SELECTION-SCREEN FRAME 박스 레이아웃 구성
+- [`02_Toolbar_FunctionKey.abap`](./01_SAP-ABAP/02_Toolbar_FunctionKey.abap): SSCRFIELDS 및 FUNCTION KEY를 활용한 검색 화면 내 사용자 정의 버튼(Excel 다운로드, 샘플 다운로드) 배치
+- [`03_Frontend_Services_Class.abap`](./01_SAP-ABAP/03_Frontend_Services_Class.abap): `CL_GUI_FRONTEND_SERVICES` 클래스 및 메소드(`DIRECTORY_BROWSE`, `GET_TEMP_DIRECTORY`)를 활용한 파일 경로 조회 및 객체 생성 실습
 
 #### 2. 🐍 Python-Data
 
 ### 2. 🐍 `Python-Data`
-- [`01_Data_Preprocessing.py`](./Python-Data/01_Data_Preprocessing.py): Raw 데이터 전처리 (결측치/이상치 처리, `LabelEncoder`, `StandardScaler` 적용 파이프라인)
-- [`02_ML_Classification.py`](./Python-Data/02_ML_Classification.py): Scikit-learn 및 `GradientBoosting` 기반 데이터 분류 및 머신러닝 모델 학습/평가
+- [`01_Data_Preprocessing.py`](./02_Python-Data/01_Data_Preprocessing.py): Raw 데이터 전처리 (결측치/이상치 처리, `LabelEncoder`, `StandardScaler` 적용 파이프라인)
+- [`02_ML_Classification.py`](./02_Python-Data/02_ML_Classification.py): Scikit-learn 및 `GradientBoosting` 기반 데이터 분류 및 머신러닝 모델 학습/평가
 
 ### 3. 🐬 `MariaDB-SQL`
 - [`01_ERP_Purchase_Join_Query.sql`](./03_MariaDB-SQL/01_ERP_Purchase_Join_Query.sql): 자재 마스터 및 구매 오더 CBO 테이블 설계, Multi-Table INNER JOIN 및 데이터 집계 쿼리
