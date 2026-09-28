@@ -33,17 +33,20 @@ SAP ERP 개발 및 백엔드/데이터 분석(Python, MariaDB, Java) 학습 기�
 - Programmers / 백준 알고리즘 코딩테스트 풀이 코드 (`.py`)
 
 ---
-
 ## 💡 Troubleshooting & Learnings (주요 문제 해결 기록)
 
-### 1. [SAP ABAP] 
-- **이슈:**
-- **해결:** 
-
-### 2. [Python] 
-- **이슈:**
-- **해결:**
-
-### 3. [MariaDB] Multi-Table JOIN 시 데이터 누락 방지
+### 1. [MariaDB] Multi-Table JOIN 시 데이터 누락 방지
 - **이슈:** 구매 오더(PO) 테이블과 입고(GR) 실적 테이블 JOIN 시, 미입고 상태인 오더 건이 `INNER JOIN` 조건에 의해 조회 대상에서 누락되는 현상 발생
 - **해결:** 기준 테이블(주문 건) 전체를 보존하기 위해 `LEFT JOIN`으로 변경하고, `IFNULL` 함수를 적용하여 미입고 건의 수량을 `0`으로 가공 처리하여 데이터 완전성 확보
+
+### 2. [Java] 0으로 나누기 연산 예외(ArithmeticException) 방어
+- **이슈:** ERP 자재 입고 수량 계산 로직 수행 중 단위 포장 수량이 0으로 전달될 경우 `ArithmeticException`이 발생하여 시스템 전체 비정상 종료 위험 존재
+- **해결:** `try-catch-finally` 예외 처리 블록을 도입하여 예외 발생 시 기본값(Default)을 할당하고, 성공/실패 여부와 무관하게 트랜잭션 로그가 항상 안전하게 남도록 자원 정리 및 로그 로직 보장
+
+### 3. [Python] Machine Learning 모델 투입 전 데이터 이상치(Outlier) 편향 방지
+- **이슈:** ERP 자재 단가 데이터에 극단적으로 큰 이상치가 포함되어 있어 `StandardScaler` 적용 시 평균과 표준편차가 distorted(왜곡)되는 문제 발생
+- **해결:** 사전에 사분위수 범위(IQR, Interquartile Range)를 산출하여 상한을 초과하는 이상치를 Clipping(상한값 대체) 처리한 후 스케일링을 진행하여 모델 예측 안정성 확보
+
+### 4. [SAP ABAP] ALV Grid 출력 시 대용량 데이터 성능 저하 방지
+- **이슈:** 반복문(LOOP) 내에서 DB를 직접 조회하는 `SELECT` 구문 사용 시 데이터베이스 I/O 병목으로 인한 Performance 저하 우려
+- **해결:** `FOR ALL ENTRIES IN` 구문 및 Internal Table 기반 데이터 매핑 구조를 적용하여 DB 접근 횟수를 최소화하고 데이터 처리 속도 최적화
