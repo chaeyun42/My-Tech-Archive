@@ -19,7 +19,7 @@ SAP ERP 개발 및 백엔드/데이터 분석(Python, MariaDB, Java) 학습 기�
 
 ### 2. 🐍 `Python-Data`
 - [`01_Data_Preprocessing.ipynb`](./Python-Data/01_Data_Preprocessing.ipynb): Raw 데이터 전처리 (결측치/이상치 처리, `LabelEncoder`, `StandardScaler` 적용 파이프라인)
-- [`02_ML_Classification.ipynb`](./Python-Data/02_ML_Classification.ipynb): Scikit-learn 기반 데이터 분류 및 머신러닝 모델 학습/평가
+- [`02_ML_Classification.ipynb`](./Python-Data/02_ML_Classification.ipynb): Scikit-learn 및 `GradientBoosting` 기반 데이터 분류 및 머신러닝 모델 학습/평가
 
 ### 3. 🐬 `MariaDB-SQL`
 - [`01_ERP_Purchase_Join_Query.sql`](./03_MariaDB-SQL/01_ERP_Purchase_Join_Query.sql): 자재 마스터 및 구매 오더 CBO 테이블 설계, Multi-Table INNER JOIN 및 데이터 집계 쿼리
