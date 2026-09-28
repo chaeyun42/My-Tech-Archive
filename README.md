@@ -28,10 +28,6 @@ SAP ERP 개발 및 백엔드/데이터 분석(Python, MariaDB, Java) 학습 기�
 
 ### 4. ☕ `Java-Practice`
 - [`ERP_Interface_Service.java`](./04_Java-Practice/ERP_Interface_Service.java): Class 상속, Static 초기화 블록, Try-Catch 예외 처리 흐름 분석
-
-### 🐍 `Python_Algorithm`
-- Programmers / 백준 알고리즘 코딩테스트 풀이 코드 (`.py`)
-
 ---
 ## 💡 Troubleshooting & Learnings (주요 문제 해결 기록)
 
