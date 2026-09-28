@@ -18,8 +18,6 @@ SAP ERP 개발 및 백엔드/데이터 분석(Python, MariaDB, Java) 학습 기�
 - [`01_Excel-Data-Manager.abap`](./01_SAP-ABAP/01_Excel-Data-Manager.abap): OLE 및 CL_GUI를 활용한 엑셀 템플릿 다운로드 및 데이터 정합성 검증/저장 통합 프로그램
 
 
-#### 2. 🐍 Python-Data
-
 ### 2. 🐍 `Python-Data`
 - [`01_Data_Preprocessing.py`](./02_Python-Data/01_Data_Preprocessing.py): Raw 데이터 전처리 (결측치/이상치 처리, `LabelEncoder`, `StandardScaler` 적용 파이프라인)
 - [`02_ML_Classification.py`](./02_Python-Data/02_ML_Classification.py): Scikit-learn 및 `GradientBoosting` 기반 데이터 분류 및 머신러닝 모델 학습/평가
