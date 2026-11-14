@@ -1,6 +1,5 @@
 # 🛠️ SAP ERP & Data Analytics Tech Archive
-
-SAP ERP 개발 및 백엔드/데이터 분석(Python, MariaDB, Java) 학습 기록과 프로젝트를 정리하는 공간입니다.
+상세 프로젝트 및 트러블 슈팅은 Notion에서 확인하세요
 
 ---
 
