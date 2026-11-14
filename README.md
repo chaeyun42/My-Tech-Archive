@@ -8,8 +8,8 @@
 
 ## 📂 폴더 구조 및 주요 코드
 
-### 1. 📦 [`SAP`](./01_SAP-ABAP)
-- [`Excel-Data-Manager`](./01_SAP-ABAP/Excel-Data-Manager): OLE 및 CL_GUI를 활용한 엑셀 템플릿 다운로드 및 데이터 정합성 검증/저장 통합 프로그램
+### 1. 📦 [`SAP`](./01_SAP)
+- [`Excel-Data-Manager`](./01_SAP/Excel-Data-Manager): OLE 및 CL_GUI를 활용한 엑셀 템플릿 다운로드 및 데이터 정합성 검증/저장 통합 프로그램
 
 
 ### 2. 🐍 [`Python-Data`](./02_Python-Data)
