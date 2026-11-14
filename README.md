@@ -1,15 +1,10 @@
-# 🛠️ SAP ERP & Data Analytics Tech Archive
-상세 프로젝트 및 트러블 슈팅은 Notion에서 확인하세요
-
----
+# 상세 프로젝트 및 트러블 슈팅은 Notion에서 확인하세요
 
 ## 📌 핵심 역량 요약
 - **SAP ABAP:** Open SQL 활용, ALV Grid 데이터 출력, BAPI 연동 로직 구현 및 비즈니스 프로세스 이해
 - **Python / AI:** Raw 데이터 전처리(결측치/이상치 제거, Feature Scaling) 및 기초 ML 모델링
 - **MariaDB (SQL):** RDBMS 테이블 설계(DDL) 및 Multi-Table JOIN 쿼리 최적화
 - **Java:** 객체지향 프로그래밍(OOP) 핵심 구조(상속, Static, Exception) 분석 및 ABAP Objects 개념 적용
-
----
 
 ## 📂 폴더 구조 및 주요 코드
 
