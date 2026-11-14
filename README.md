@@ -8,20 +8,20 @@
 
 ## 📂 폴더 구조 및 주요 코드
 
-### 1. 📦 `SAP`
+### 1. 📦 [`SAP`](./01_SAP-ABAP)
 - [`Excel-Data-Manager`](./01_SAP-ABAP/Excel-Data-Manager): OLE 및 CL_GUI를 활용한 엑셀 템플릿 다운로드 및 데이터 정합성 검증/저장 통합 프로그램
 
 
-### 2. 🐍 `Python-Data`
+### 2. 🐍 [`Python-Data`](./02_Python-Data)
 - [`01_Data_Preprocessing.py`](./02_Python-Data/01_Data_Preprocessing.py): Raw 데이터 전처리 (결측치/이상치 처리, `LabelEncoder`, `StandardScaler` 적용 파이프라인)
 - [`02_ML_Classification.py`](./02_Python-Data/02_ML_Classification.py): Scikit-learn 및 `GradientBoosting` 기반 데이터 분류 및 머신러닝 모델 학습/평가
 
-### 3. 🐬 `MariaDB-SQL`
+### 3. 🐬 [`MariaDB-SQL`](./03_MariaDB-SQL)
 - [`01_ERP_Purchase_Join_Query.sql`](./03_MariaDB-SQL/01_ERP_Purchase_Join_Query.sql): 자재 마스터 및 구매 오더 CBO 테이블 설계, Multi-Table INNER JOIN 및 데이터 집계 쿼리
 - [`02_ERP_Sales_Subquery.sql`](./03_MariaDB-SQL/02_ERP_Sales_Subquery.sql): LEFT JOIN을 통한 미입고 오더 추출 및 서브쿼리(Subquery) + HAVING 기반 조건부 데이터 산출
 - [`03_SQL_View_Procedure.sql`](./03_MariaDB-SQL/03_SQL_View_Procedure.sql): 다중 조인 및 업무 로직이 포함된 복잡한 SQL 구문의 VIEW 객체화 및 재사용
 
-### 4. ☕ `Java-Practice`
+### 4. ☕ [`Java-Practice`](./04_Java-Practice)
 - [`ERP_Interface_Service.java`](./04_Java-Practice/ERP_Interface_Service.java): Class 상속, Static 초기화 블록, Try-Catch 예외 처리 흐름 분석
 ---
 ## 💡 Troubleshooting & Learnings (주요 문제 해결 기록)
